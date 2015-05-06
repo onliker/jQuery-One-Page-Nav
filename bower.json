@@ -1,6 +1,6 @@
 {
   "name": "jQuery-One-Page-Nav",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": [
     "jquery.nav.js"
   ],
@@ -10,6 +10,6 @@
     "*.css"
   ],
   "dependencies": {
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.0"
   }
 }
