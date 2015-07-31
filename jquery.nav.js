@@ -7,7 +7,7 @@
  * Uses the same license as jQuery, see:
  * http://jquery.org/license
  *
- * @version 3.0.0
+ * @version 3.0.3
  *
  * Example usage:
  * $('#nav').onePageNav({
@@ -119,7 +119,7 @@
 				linkHref = self.getHash($(this));
 				$target = $('#' + linkHref);
 
-				if($target.length) {
+				if($target.length && $target.offset()) {
 					topPos = $target.offset().top;
 					self.sections[linkHref] = Math.round(topPos);
 				}
